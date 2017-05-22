@@ -9,7 +9,7 @@ import routes from './Routes';
   TODO: move all Route tags to ./Routes.js
 */
 render (
-  <Router history={browserHistory}>
+  <Router history={browserHistory} routes={routes}>
     <Route path="/" component={App} >
       <IndexRoute component={Home} />
       <Route path="/movies" component={Movies} />

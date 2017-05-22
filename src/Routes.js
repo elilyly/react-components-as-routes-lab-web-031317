@@ -9,5 +9,4 @@ import Movies from './components/Movies';
 
 
 export default (
-  /* add routes here */
 );
